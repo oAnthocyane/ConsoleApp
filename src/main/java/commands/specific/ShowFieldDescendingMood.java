@@ -8,7 +8,7 @@ import java.util.*;
 import static colors.Colors.*;
 
 /**
- * The command Show field descending mood.
+ * The type Show field descending mood.
  */
 public class ShowFieldDescendingMood implements Command {
 

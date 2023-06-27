@@ -11,7 +11,7 @@ public class Database {
     /**
      * The Config.
      */
-    DatabaseConfig config = new DatabaseConfig("helios");
+    DatabaseConfig config = new DatabaseConfig("");
     /**
      * The Url.
      */

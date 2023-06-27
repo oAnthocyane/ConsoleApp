@@ -7,7 +7,7 @@ import commands.Command;
 import static colors.Colors.*;
 
 /**
- * The command Clear collection.
+ * The type Clear collection.
  */
 public class ClearCollection implements Command {
 

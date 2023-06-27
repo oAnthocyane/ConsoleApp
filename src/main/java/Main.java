@@ -6,17 +6,13 @@ import commands.CommandController;
 import utils.readers.ReaderFromConsole;
 
 /**
- * The main class to launch app.
- *
- * @author Kozhinov Pavel and Dudar Ilia
- * @author Dudar Ilia
- * @version 1.0
+ * The type Main.
  */
 public class Main {
     /**
-     * The main method.
+     * The entry point of application.
      *
-     * @param args the input file collection
+     * @param args the input arguments
      */
     public static void main(String[] args) {
         Database db = Database.getInstance();

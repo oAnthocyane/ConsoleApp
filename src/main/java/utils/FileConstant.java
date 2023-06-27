@@ -1,7 +1,7 @@
 package utils;
 
 /**
- * The type File constant, store all constant about file.
+ * The type File constant.
  */
 public class FileConstant {
 

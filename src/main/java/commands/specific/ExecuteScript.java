@@ -16,7 +16,7 @@ import java.util.List;
 import static colors.Colors.*;
 
 /**
- * The command Execute script.
+ * The type Execute script.
  */
 public class ExecuteScript implements Command {
 

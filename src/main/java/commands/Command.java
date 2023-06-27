@@ -5,14 +5,14 @@ package commands;
  */
 public interface Command {
     /**
-     * Execute command.
+     * Execute.
      *
      * @param argument the argument
      */
     void execute(String argument);
 
     /**
-     * Description command.
+     * Description string.
      *
      * @return the string
      */

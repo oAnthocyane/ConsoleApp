@@ -16,7 +16,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
- * The main class that is stored in the collection
+ * The type Human being.
  */
 public class HumanBeing implements Comparable<HumanBeing>{
     private final Map<Fields, Predicate<String>> notNullSetters = new LinkedHashMap<>(); // Все сеттеры, устанавливающие поля, которые не должны быть null
@@ -271,10 +271,10 @@ public class HumanBeing implements Comparable<HumanBeing>{
     }
 
     /**
-     * A method that returns a boolean indicating whether the name field is set or not
+     * Is set name boolean.
      *
      * @param name the name
-     * @return boolean boolean
+     * @return the boolean
      */
     public boolean isSetName(String name){
         NameValidator nameValidator = new NameValidator(name);
@@ -286,10 +286,10 @@ public class HumanBeing implements Comparable<HumanBeing>{
     }
 
     /**
-     * A method that returns a boolean indicating whether the coordinate field of the given object is set or not
+     * Is set coordinates boolean.
      *
      * @param coordinates the coordinates
-     * @return boolean boolean
+     * @return the boolean
      */
     public boolean isSetCoordinates(String coordinates){
         String[] coords = coordinates.split(",");
@@ -304,10 +304,10 @@ public class HumanBeing implements Comparable<HumanBeing>{
     }
 
     /**
-     * A method that returns a boolean indicating whether the hit rate field is set or not
+     * Is set impact speed boolean.
      *
      * @param impactSpeed the impact speed
-     * @return boolean boolean
+     * @return the boolean
      */
     public boolean isSetImpactSpeed(String impactSpeed){
         if(impactSpeed.equals("")) {
@@ -371,9 +371,9 @@ public class HumanBeing implements Comparable<HumanBeing>{
     }
 
     /**
-     * A method that returns all field values separated by commas; if the field is null, it is replaced with an empty string
+     * Gets all fields as string.
      *
-     * @return String all fields as string
+     * @return the all fields as string
      */
     public String getAllFieldsAsString() {
         String impactSpeedString = (impactSpeed != null) ? impactSpeed.toString() : "";
@@ -386,9 +386,6 @@ public class HumanBeing implements Comparable<HumanBeing>{
                 + moodString + "," + carString;
     }
 
-    /**A method that counts the "power" of an object - how strong all of its characteristics are
-     * @return int
-     */
     private int countPower(){
         int power = 0;
         if(realHero) power += 100;
@@ -421,9 +418,6 @@ public class HumanBeing implements Comparable<HumanBeing>{
         setters.put(field, consumer);
     }
 
-    /** A method for comparing dragons by power field
-     * @return int
-     * */
     @Override
     public int compareTo(HumanBeing human){
         return this.countPower() - human.countPower();
@@ -435,14 +429,15 @@ public class HumanBeing implements Comparable<HumanBeing>{
         return "HumanBeing{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", coordinates=" + coordinates +
+                ", coordinate_x=" + coordinates.getX() +
+                ", coordinate_y=" + coordinates.getY() +
                 ", creationDate=" + creationDate +
                 ", realHero=" + realHero +
                 ", hasToothpick=" + hasToothpick +
                 ", impactSpeed=" + impactSpeed +
-                ", weaponType=" + weaponType +
-                ", mood=" + mood +
-                ", car=" + car +
+                ", weaponType=" + getStringWeaponType() +
+                ", mood=" + getStringMood() +
+                ", car_cool=" + car.getStatus() +
                 ", userLogin='" + userLogin + '\'' +
                 '}';
     }

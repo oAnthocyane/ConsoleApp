@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import static colors.Colors.*;
 
 /**
- * The command Remove greater human being.
+ * The type Remove greater human being.
  */
 public class RemoveGreaterHumanBeing implements Command {
     private final Reader reader;

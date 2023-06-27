@@ -59,7 +59,7 @@ public enum Mood {
         }
 
     /**
-     * Gets mood for field name or order.
+     * Gets mood.
      *
      * @param s the s
      * @return the mood
@@ -68,7 +68,7 @@ public enum Mood {
     public static Mood getMood(String s) throws  IllegalArgumentException{
             Mood[] moodValues = Mood.values();
             for (Mood mood : moodValues) {
-                if (s.equals(mood.getName()) || s.equals(mood.getOrder())) {
+                if (s.equals(mood.getName().toLowerCase()) || s.equals(mood.getOrder())) {
                     return mood;
                 }
             }
@@ -76,9 +76,9 @@ public enum Mood {
         }
 
     /**
-     * Gets string all values in Mood.
+     * Gets string values.
      *
-     * @return the string values in Mood
+     * @return the string values
      */
     public static String getStringValues() {
             StringBuilder sb = new StringBuilder();
@@ -94,10 +94,5 @@ public enum Mood {
         public String toString(){
             return this.getName();
         }
-
-
-
-
-
 
     }

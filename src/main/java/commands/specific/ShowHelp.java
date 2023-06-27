@@ -9,7 +9,7 @@ import java.util.Map;
 import static colors.Colors.*;
 
 /**
- * The command Show help.
+ * The type Show help.
  */
 public class ShowHelp implements Command {
 

@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 import static colors.Colors.*;
 
 /**
- * The command Remove lower human being.
+ * The type Remove lower human being.
  */
 public class RemoveLowerHumanBeing implements Command {
 

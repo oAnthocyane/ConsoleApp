@@ -6,7 +6,7 @@ import static colors.Colors.BLUE;
 import static colors.Colors.RESET;
 
 /**
- * The command Exit.
+ * The type Exit.
  */
 public class Exit implements Command {
 

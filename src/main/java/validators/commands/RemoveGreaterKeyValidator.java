@@ -30,7 +30,7 @@ public class RemoveGreaterKeyValidator extends Validator {
     }
 
     /**
-     * Is not can transform to uuid boolean.
+     * Is not can transform to id boolean.
      *
      * @return the boolean
      */

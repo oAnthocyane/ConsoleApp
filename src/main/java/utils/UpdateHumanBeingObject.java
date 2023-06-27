@@ -25,7 +25,7 @@ public class UpdateHumanBeingObject {
     }
 
     /**
-     * Update fields in HumanBeing object.
+     * Update human being.
      *
      * @param human the human
      * @param field the field
@@ -49,7 +49,7 @@ public class UpdateHumanBeingObject {
     }
 
     /**
-     * Update fields that may null in HumanBeing object.
+     * Update null setter.
      *
      * @param human      the human
      * @param field      the field

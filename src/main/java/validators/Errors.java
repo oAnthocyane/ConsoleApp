@@ -85,7 +85,7 @@ public enum Errors {
      */
     IMPOSSIBLEWRITETOFILE("Невозможно записать данные в файл"),
     /**
-     * Manyrecursions errors.
+     * Recursion errors.
      */
     RECURSION("Обнаружена рекурсия"),
     /**

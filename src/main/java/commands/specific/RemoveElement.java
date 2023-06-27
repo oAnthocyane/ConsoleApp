@@ -9,7 +9,7 @@ import validators.fields.HumanForUserValidator;
 import static colors.Colors.*;
 
 /**
- * The command Remove element.
+ * The type Remove element.
  */
 public class RemoveElement implements Command {
 

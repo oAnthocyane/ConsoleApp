@@ -58,15 +58,15 @@ public enum WeaponType {
     }
 
     /**
-     * Gets weapon type for name or order.
+     * Gets weapon type.
      *
-     * @param s the string(name or order)
+     * @param s the s
      * @return the weapon type
      */
     public static @Nullable WeaponType getWeaponType(String s) {
         WeaponType[] weaponTypesValues = WeaponType.values();
         for (WeaponType weaponType : weaponTypesValues) {
-            if (s.equals(weaponType.getName()) || s.equals(weaponType.getOrder())) {
+            if (s.equals(weaponType.getName().toLowerCase()) || s.equals(weaponType.getOrder())) {
                 return weaponType;
             }
         }
@@ -74,9 +74,9 @@ public enum WeaponType {
     }
 
     /**
-     * Gets string values in WeaponType.
+     * Gets string values.
      *
-     * @return the string values in WeaponType
+     * @return the string values
      */
     public static String getStringValues() {
         StringBuilder sb = new StringBuilder();

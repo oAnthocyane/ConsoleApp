@@ -5,7 +5,7 @@ import commands.Command;
 import static colors.Colors.*;
 
 /**
- * The command Show info.
+ * The type Show info.
  */
 public class ShowInfo implements Command {
 

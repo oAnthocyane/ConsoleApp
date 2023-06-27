@@ -5,7 +5,7 @@ import validators.Errors;
 import validators.Validator;
 
 /**
- * The type Uuid validator.
+ * The type Id validator.
  */
 public class IDValidator extends Validator {
 
@@ -15,7 +15,7 @@ public class IDValidator extends Validator {
     protected final String id;
 
     /**
-     * Instantiates a new Uuid validator.
+     * Instantiates a new Id validator.
      *
      * @param id the id
      */

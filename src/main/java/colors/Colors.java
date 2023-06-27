@@ -1,23 +1,23 @@
 package colors;
 
 /**
- * The enum Colors to highlight text.
+ * The enum Colors.
  */
 public enum Colors {
     /**
-     * Red color.
+     * Red colors.
      */
     RED("\u001B[31m"),
     /**
-     * Purple color.
+     * Purple colors.
      */
     PURPLE("\u001B[35m"),
     /**
-     * Blue color.
+     * Blue colors.
      */
     BLUE("\u001B[34m"),
     /**
-     * Reset color.
+     * Reset colors.
      */
     RESET("\u001B[0m");
 

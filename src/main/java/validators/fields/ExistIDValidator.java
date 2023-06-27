@@ -7,14 +7,14 @@ import validators.Validator;
 import java.util.UUID;
 
 /**
- * The type Exist uuid validator.
+ * The type Exist id validator.
  */
 public class ExistIDValidator extends Validator {
 
     private final String id;
 
     /**
-     * Instantiates a new Exist uuid validator.
+     * Instantiates a new Exist id validator.
      *
      * @param id the id
      */

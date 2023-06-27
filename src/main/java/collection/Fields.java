@@ -3,10 +3,7 @@ package collection;
 import validators.Errors;
 
 /**
- * Enum containing all fields of the HumanBeing class with 3 fields.
- * * 1 - name
- * * 2 - comment
- * * 3 - queue in order (order)
+ * The enum Fields.
  */
 public enum Fields {
 
@@ -56,7 +53,8 @@ public enum Fields {
     /**
      * The Name.
      */
-    final String name, /**
+    final String name,
+    /**
      * Comments fields.
      */
     comments;
@@ -72,9 +70,9 @@ public enum Fields {
     }
 
     /**
-     * Method that returns by field order, Field @param order the order
+     * Get for order fields.
      *
-     * @param order the order in fields
+     * @param order the order
      * @return the fields
      */
     public static Fields getForOrder(int order){

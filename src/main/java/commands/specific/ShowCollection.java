@@ -9,7 +9,7 @@ import java.util.UUID;
 import static colors.Colors.*;
 
 /**
- * The command Show collection.
+ * The type Show collection.
  */
 public class ShowCollection implements Command {
 

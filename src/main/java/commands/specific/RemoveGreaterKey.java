@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 import static colors.Colors.*;
 
 /**
- * The command Remove greater key.
+ * The type Remove greater key.
  */
 public class RemoveGreaterKey implements Command {
 

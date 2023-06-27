@@ -9,7 +9,7 @@ import java.util.Properties;
  * The type Database config.
  */
 public class DatabaseConfig {
-    private static final String DATABASE_PATH = "/database_";
+    private static final String DATABASE_PATH = "/database";
     private static final String DATABASE_EXTENSHION = ".properties";
 
     private final Properties properties;

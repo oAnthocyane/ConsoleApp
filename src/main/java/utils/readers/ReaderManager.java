@@ -1,7 +1,7 @@
 package utils.readers;
 
 /**
- * The type Reader manager. Controls switching between classes ReaderFromConsole and ReaderFromFile
+ * The type Reader manager.
  */
 public class ReaderManager extends Reader{
 
@@ -19,11 +19,6 @@ public class ReaderManager extends Reader{
         this.nameReader = nameReader;
     }
 
-    /**
-     * Gets a new line.
-     * if a new line == null. Switch reader to ReaderFromConsole.
-     * @return request the new line
-     */
     public String getNewLine(){
         String request = reader.getNewLine();
         if(request == null){

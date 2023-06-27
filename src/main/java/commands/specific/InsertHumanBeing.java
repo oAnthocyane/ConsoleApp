@@ -15,7 +15,7 @@ import java.util.UUID;
 import static colors.Colors.*;
 
 /**
- * The command Insert human being.
+ * The type Insert human being.
  */
 public class InsertHumanBeing implements Command {
 

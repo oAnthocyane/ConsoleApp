@@ -17,7 +17,7 @@ import java.util.UUID;
 import static colors.Colors.*;
 
 /**
- * The command Update human being.
+ * The type Update human being.
  */
 public class UpdateHumanBeing implements Command {
 

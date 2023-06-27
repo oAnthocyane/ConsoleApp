@@ -24,7 +24,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Read database.
+     * Read from database.
      */
     public static void readFromDatabase(){
         Database db = Database.getInstance();
@@ -54,7 +54,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Add to HumanBeing collection.
+     * Add.
      *
      * @param human the human
      */
@@ -64,7 +64,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Clear HumanBeing collection.
+     * Clear.
      */
     public static void clear(){
         dateOfLastChange = new Date();
@@ -72,7 +72,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Remove HumanBeing object in HumanBeing collection by id.
+     * Remove.
      *
      * @param id the id
      */
@@ -82,7 +82,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Get HumanBeing object in HumanBeing collection by id.
+     * Get human human being.
      *
      * @param id the id
      * @return the human being
@@ -92,7 +92,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Has element in HumanBeing collection by id.
+     * Has element boolean.
      *
      * @param id the id
      * @return the boolean
@@ -100,14 +100,14 @@ public class HumanBeingCollection {
     public static boolean hasElement(Long id) {return humanBeingCollection.get(id) != null;}
 
     /**
-     * Get count HumanBeing collection long.
+     * Get count human being collection long.
      *
      * @return the long
      */
     public static long getCountHumanBeingCollection(){ return humanBeingCollection.size(); }
 
     /**
-     * Get entry set HumanBeing collection.
+     * Get entry set set.
      *
      * @return the set
      */
@@ -116,7 +116,7 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Get values HumanBeing collection (HumanBeing).
+     * Get human beings collection.
      *
      * @return the collection
      */
@@ -134,9 +134,9 @@ public class HumanBeingCollection {
     }
 
     /**
-     * Gets HumanBeing collection.
+     * Gets human being collection.
      *
-     * @return the HumanBeing collection
+     * @return the human being collection
      */
     public static Map<Long, HumanBeing> getHumanBeingCollection() {
         return humanBeingCollection;

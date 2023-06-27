@@ -8,7 +8,7 @@ import validators.commands.ImpactSpeedValidator;
 import static colors.Colors.*;
 
 /**
- * The command Count greater than impact speed.
+ * The type Count greater than impact speed.
  */
 public class CountGreaterThanImpactSpeed implements Command {
 
